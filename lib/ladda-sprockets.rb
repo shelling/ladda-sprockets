@@ -6,6 +6,7 @@ module Ladda
                 require "ladda-sprockets/engine"
             end
 
+            require "sass"
             stylesheets = File.expand_path(File.join("..", "vendor", "assets", "stylesheets"), File.dirname(__FILE__))
             ::Sass.load_paths << stylesheets
 

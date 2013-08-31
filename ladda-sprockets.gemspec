@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
     s.summary  = "the ladda button effect assets"
     s.files    = Dir["{lib,vendor}/**/*"]
     s.add_dependency "sprockets"
+    s.add_dependency "sass"
 end
