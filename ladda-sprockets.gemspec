@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name     = "ladda-sprockets"
-    s.version  = "0.7.0"
+    s.version  = "0.7.1"
     s.authors  = ["shelling"]
     s.email    = ["navyblueshellingford@gmail.com"]
     s.license  = "MIT"
