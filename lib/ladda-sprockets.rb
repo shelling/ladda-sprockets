@@ -1,5 +1,8 @@
 module Ladda
     module Sprockets
+        def self.path
+            File.expand_path(File.join("..", "vendor", "assets", "javascripts"), File.dirname(__FILE__))
+        end
         def self.load!
 
             if rails?

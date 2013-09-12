@@ -2,7 +2,6 @@
 
 Ladda is a UI concept merging the loading indicator into the action
 invoked them. Here we package it for Asset Pipeline usage.
-
 The original source is from [github.com/hakimel/Ladda](https://github.com/hakimel/Ladda)
 where you can check out the instructions. And there is a [demo page](http://lab.hakim.se/ladda/).
 
@@ -24,6 +23,9 @@ Then in head of the major javascript file append
     //= require "ladda"
 
 Note you must declare `//= require spin` first. Spin is the dependency of Ladda.
+
+If you have manual management of search paths of Sprockets::Environment, `Ladda::Sprockets.path` will return
+the path of javascripts.
 
 Stylesheets from Ladda can be loaded with
 
